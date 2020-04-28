@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.5'
+
+}
