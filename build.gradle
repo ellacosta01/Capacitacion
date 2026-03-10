@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.google.buscador'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Selenium 4: La versión actual estándar
+    implementation 'org.seleniumhq.selenium:selenium-java:4.25.0'
+    // WebDriverManager: Para no necesitar el chromedriver.exe en tu PC
+    implementation 'io.github.bonigarcia:webdrivermanager:5.9.2'
+    // JUnit 5: Para no usar el método main() para testear
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+}
+
+test {
+    useJUnit5()
+}
