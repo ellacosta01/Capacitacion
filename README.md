@@ -166,4 +166,4 @@ Durante el desarrollo de este proyecto se aprendió:
 Proyecto realizado con fines de aprendizaje en automatización de pruebas.
 
 **Autor:**  
-Estudiante de Ingeniería de Software
+Ella Acosta
